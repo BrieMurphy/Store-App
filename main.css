@@ -62,41 +62,26 @@ li a:hover {
     color: #900C3F;
 }
 
-#main {
-	height: 250px;
-	width: 700px;
-	border-width: 3px;
-	border-style: double;
-	border-color: orange;
-	margin: 3px 3px 3px 3px;
-	padding: 3px 3px 3px 3px;
-	background-color: #FFED9E;
-}
 
-#main-header {
-	color: #FF9E00;
-	font-size: 25px;
-	text-align: center;
-}
 
-.specialty {
+#specialty {
 	float: left;
-}
-
-.specialty-article {
-	height: 350px;
-	width: 275px;
+	width: 200px;
+	color: orange;
+	margin: 10px 10px 0px 10px;
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+	height: 300px;
 	border-width: 3px;
 	border-style: double;
 	border-color: orange;
-	margin: 3px 3px 3px 3px;
-	padding: 3px 3px 3px 3px;
 	background-color: #FFED9E;
 }
 
 #specialty-header {
-	color: #FF9E00;
+	color: #900C3F;
 	font-size: 25px;
+	text-align: center;
 }
 
 
@@ -109,66 +94,95 @@ li a:hover {
 
 
 
-.popular {
-	float: right;
-	position: relative;
-}
-
-.popular-article {
-	height: 150px;
-	width: 200px;
+#main {
+	float: left;
+	height: 600px;
+	width: 800px;
 	border-width: 3px;
 	border-style: double;
 	border-color: orange;
-	margin: 3px 3px 3px 3px;
-	padding: 3px 3px 3px 3px;
+	margin: 10px 10px 0px 10px;
+	padding: 5px 5px 5px 5px;
 	background-color: #FFED9E;
 }
 
-
-.products {
-
+#main-header {
+	color: #FF9E00;
+	font-size: 25px;
+	text-align: center;
 }
+
 
 .product-article {
-	height: 250px;
-	width: 700px;
+	height: 200px;
+	width: 200px;
 	border-width: 3px;
-	border-style: double;
-	border-color: orange;
+	border-color: black;
+	border-style: solid;
 	margin: 3px 3px 3px 3px;
 	padding: 3px 3px 3px 3px;
-	background-color: #FFED9E;
+	display: inline-block;
 }
 
 .product-article-thumbnail {
-	width: 150px;
-	height: 200px;
+	width: 75px;
+	height: 100px;
 	border-width: 3px;
 	border-style: double;
 	border-color: orange;
-	margin: 3px 3px 3px 3px;
-	padding: 3px 3px 3px 3px;
 }
 
-#product-article-button {
+.product-article-button {
 	background-color: orange;
 }
 
 
 
-footer {
-	position: ;
+#popular {
+	float: left;
+	color: orange;
+	display: inline-block;
+	height: 350px;
+	width: 200px;
+	border-width: 3px;
+	border-style: double;
+	border-color: orange;
+	margin: 10px 10px 0px 10px;
+	padding: 5px 5px 5px 5px;
+	background-color: #FFED9E;
 }
+
+#popular-article-header {
+	color: #900C3F;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+
+.footer-list {
+	clear: both;
+    list-style-type: none;
+	overflow: hidden;
+    background-color: #FF9E00;
+  	border-width: 3px;
+  	border-color: #900C3F;
+  	left: 0px;
+  	right: 0px;
+	bottom: 0px;
+	position: fixed;
+	width: 100%;
+}
+
 
 
 
 /* **Notes:
 
-/* Got background here: http://lea.verou.me/css3patterns/#starry-night
+Got background here: http://lea.verou.me/css3patterns/#starry-night
    Modified slightly: the colors & positions of the radial gradiants
-   Original code below: */
-/*body {
+   Original code below:
+	body {
 	background-color:black;
 	background-image:
 		radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
@@ -177,4 +191,4 @@ footer {
 		radial-gradient(rgba(255,148,54,.4), rgba(255,0,0,.1) 2px, transparent 30px);
 	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
 	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-}*/
+} */
